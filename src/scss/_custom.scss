@@ -21,6 +21,16 @@ $black:    #000 ;
 // scss-docs-end gray-color-variables
 
 
+//Background
+.background {
+    background-image: url('../media/Background.png');
+    background-size: cover;   // Cover the entire element
+    background-position: center; // Center the image
+    background-repeat: no-repeat; // Prevent repetition
+    height: 100vh; // Optional: set height of the element
+  }
+  
+
 
 $primary:       $teal;
 $secondary:     $green;
