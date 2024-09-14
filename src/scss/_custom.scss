@@ -1,38 +1,50 @@
 //Theme Colors
 
-$blue:    #0d6efd !default;
-$green:   #198754 !default;
-$teal:    #20c997 !default;
+$blue: #0d6efd !default;
+$green: #198754 !default;
+$teal: #20c997 !default;
 
 
 // White - Gray colors
 // scss-docs-start gray-color-variables
-$white:    #fff ;
-$gray-100: #f8f9fa ;
-$gray-200: #e9ecef ;
-$gray-300: #dee2e6 ;
-$gray-400: #ced4da ;
-$gray-500: #adb5bd ;
-$gray-600: #6c757d ;
-$gray-700: #495057 ;
-$gray-800: #343a40 ;
-$gray-900: #212529 ;
-$black:    #000 ;
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
 // scss-docs-end gray-color-variables
 
 
 //Background
 .background {
-    background-image: url('../media/Background.png');
-    background-size: cover;   // Cover the entire element
-    background-position: center; // Center the image
-    background-repeat: no-repeat; // Prevent repetition
-    height: 100vh; // Optional: set height of the element
-  }
-  
+  background-image: url('../media/Background.png');
+  //background-size: cover; // Cover the entire element
+  background-position: center; // Center the image
+  background-repeat: no-repeat; // Prevent repetition
+
+}
 
 
-$primary:       $teal;
-$secondary:     $green;
+//TODO: MAKE IT CONTENT FRIENDLY
+.img-responsive {
+  width: 100%;
+  height: auto;
+  object-fit: cover; // Options: contain, cover, fill, none, scale-down
+}
+
+
+.text{
+  background-color: rgba(0, 0, 0, 0.425); // Fully transparent background
+  color: #ffffff; // White text color
+}
+
+$primary: $teal;
+$secondary: $green;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
