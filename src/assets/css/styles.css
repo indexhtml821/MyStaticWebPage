@@ -1,19 +1,69 @@
 @charset "UTF-8";
 .background {
   background-image: url("../media/Background.png");
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .img-responsive {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+  width: 70%;
+  height: 70%;
+  object-fit: scale-down;
 }
 
 .text {
   background-color: rgba(0, 0, 0, 0.425);
   color: #ffffff;
+  margin-left: px;
+}
+
+.navigationbar {
+  padding: 20px;
+}
+.navigationbar .navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.navigationbar .navbar-nav .nav-item {
+  position: relative;
+  margin-right: 15px;
+  padding: 0;
+}
+.navigationbar .navbar-nav .nav-item .nav-link {
+  display: block;
+  padding: 10px 20px;
+  background-color: #2E4E1E;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+}
+.navigationbar .navbar-nav .nav-item::before, .navigationbar .navbar-nav .nav-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+.navigationbar .navbar-nav .nav-item::before {
+  left: -15px;
+  border-width: 20px 15px 20px 0;
+  border-color: transparent #2E4E1E transparent transparent;
+}
+.navigationbar .navbar-nav .nav-item::after {
+  right: -15px;
+  border-width: 20px 0 20px 15px;
+  border-color: transparent transparent transparent #2E4E1E;
+}
+.navigationbar .navbar-nav .nav-item:hover .nav-link {
+  background-color: #1F3B15;
+}
+.navigationbar .navbar-nav .nav-item:hover .nav-link::before, .navigationbar .navbar-nav .nav-item:hover .nav-link::after {
+  border-color: transparent #1F3B15 transparent transparent;
 }
 
 /*!
@@ -3880,7 +3930,7 @@ textarea.form-control-lg {
   display: block;
 }
 
-.navbar {
+.navbar, .navigationbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
   --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
@@ -3914,7 +3964,13 @@ textarea.form-control-lg {
 .navbar > .container-md,
 .navbar > .container-lg,
 .navbar > .container-xl,
-.navbar > .container-xxl {
+.navbar > .container-xxl, .navigationbar > .container,
+.navigationbar > .container-fluid,
+.navigationbar > .container-sm,
+.navigationbar > .container-md,
+.navigationbar > .container-lg,
+.navigationbar > .container-xl,
+.navigationbar > .container-xxl {
   display: flex;
   flex-wrap: inherit;
   align-items: center;
@@ -4105,31 +4161,31 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 992px) {
-  .navbar-expand-lg {
+  .navbar-expand-lg, .navigationbar {
     flex-wrap: nowrap;
     justify-content: flex-start;
   }
-  .navbar-expand-lg .navbar-nav {
+  .navbar-expand-lg .navbar-nav, .navigationbar .navbar-nav {
     flex-direction: row;
   }
-  .navbar-expand-lg .navbar-nav .dropdown-menu {
+  .navbar-expand-lg .navbar-nav .dropdown-menu, .navigationbar .navbar-nav .dropdown-menu {
     position: absolute;
   }
-  .navbar-expand-lg .navbar-nav .nav-link {
+  .navbar-expand-lg .navbar-nav .nav-link, .navigationbar .navbar-nav .nav-link {
     padding-right: var(--bs-navbar-nav-link-padding-x);
     padding-left: var(--bs-navbar-nav-link-padding-x);
   }
-  .navbar-expand-lg .navbar-nav-scroll {
+  .navbar-expand-lg .navbar-nav-scroll, .navigationbar .navbar-nav-scroll {
     overflow: visible;
   }
-  .navbar-expand-lg .navbar-collapse {
+  .navbar-expand-lg .navbar-collapse, .navigationbar .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
   }
-  .navbar-expand-lg .navbar-toggler {
+  .navbar-expand-lg .navbar-toggler, .navigationbar .navbar-toggler {
     display: none;
   }
-  .navbar-expand-lg .offcanvas {
+  .navbar-expand-lg .offcanvas, .navigationbar .offcanvas {
     position: static;
     z-index: auto;
     flex-grow: 1;
@@ -4141,10 +4197,10 @@ textarea.form-control-lg {
     transform: none !important;
     transition: none;
   }
-  .navbar-expand-lg .offcanvas .offcanvas-header {
+  .navbar-expand-lg .offcanvas .offcanvas-header, .navigationbar .offcanvas .offcanvas-header {
     display: none;
   }
-  .navbar-expand-lg .offcanvas .offcanvas-body {
+  .navbar-expand-lg .offcanvas .offcanvas-body, .navigationbar .offcanvas .offcanvas-body {
     display: flex;
     flex-grow: 0;
     padding: 0;
@@ -4291,7 +4347,7 @@ textarea.form-control-lg {
   overflow-y: visible;
 }
 
-.navbar-dark,
+.navbar-dark, .navigationbar,
 .navbar[data-bs-theme=dark] {
   --bs-navbar-color: rgba(255, 255, 255, 0.55);
   --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
@@ -9969,7 +10025,7 @@ textarea.form-control-lg {
   .p-md-2 {
     padding: 0.5rem !important;
   }
-  .p-md-3 {
+  .p-md-3, .navigationbar {
     padding: 1rem !important;
   }
   .p-md-4 {
