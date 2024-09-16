@@ -4,6 +4,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  height: auto;
+  min-height: 100vh;
 }
 
 .img-responsive {
@@ -16,6 +18,10 @@
   background-color: rgba(0, 0, 0, 0.425);
   color: #ffffff;
   margin-left: px;
+}
+
+.footertext {
+  color: #ffffff;
 }
 
 .navigationbar {

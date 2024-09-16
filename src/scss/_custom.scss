@@ -28,6 +28,8 @@ $black: #000;
   background-size: cover; // Cover the entire element
   background-position: center; // Center the image
   background-repeat: no-repeat; // Prevent repetition
+  height: auto;
+  min-height: 100vh;
 
 }
 
@@ -45,6 +47,12 @@ $black: #000;
   background-color: rgba(0, 0, 0, 0.425); // Fully transparent background
   color: #ffffff; // White text color
   margin-left: px;
+}
+
+
+.footertext {
+  color: #ffffff; // White text color
+  
 }
 
 .navigationbar {
