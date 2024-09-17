@@ -17,7 +17,7 @@
         <!-- Navbar  -->
         <nav class="navigationbar navbardesign">
             <div class="container">
-                <a class="navbar-brand" href="index.shtml">Web Zone</a>
+                <a class="navbar-brand" href="index.shtml">Newton Dev</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -46,6 +46,7 @@
                 </div>
             </div>
         </nav>
+
 
 
         <div class="row " style="margin:10%; justify-content: center;">
@@ -91,7 +92,7 @@
     <!-- <script src="assets/js/popper.min.js"></script> -->
     </div>
     <!-- Footer Block Start -->
-    <footer id="site-footer bg-primary text">
+    <footer id="footer" class="standardfooter">
         <div class="container-fluid  bg-primary text">
             <div class="row">
                 <div class="col-6 col-lg-4">
@@ -105,20 +106,20 @@
 
                     <ul class="list-unstyled pt-2">
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Mis Objetivos</a>
+                            <a class="nav-link text-white" href="objectives.shtml">Mis Objetivos</a>
                         </li>
                         <li class="nav-item">
 
-                            <a class="nav-link text-white" href="#">Computación</a>
+                            <a class="nav-link text-white" href="computerscience.shtml">Computación</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Pasatiempos</a>
+                            <a class="nav-link text-white" href="hobbies.shtml">Pasatiempos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Acerca de este sitio</a>
+                            <a class="nav-link text-white" href="about.shtml">Acerca de este sitio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Contáctame</a>
+                            <a class="nav-link text-white" href="contact.shtml">Contáctame</a>
                         </li>
                     </ul>
                 </div>

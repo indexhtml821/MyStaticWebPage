@@ -33,6 +33,24 @@ $black: #000;
 
 }
 
+.text {
+  background-color: rgba(0, 0, 0, 0.425); // Fully transparent background
+  color: #ffffff; // White text color
+  margin-left: px;
+}
+
+
+.about{
+ text-align: center;
+  @extend .text;
+}
+
+.standardfooter{
+
+  
+  @extend .bg-primary;
+  @extend .text;
+}
 
 //TODO: MAKE IT CONTENT FRIENDLY
 .img-responsive {
@@ -43,11 +61,6 @@ $black: #000;
 }
 
 
-.text {
-  background-color: rgba(0, 0, 0, 0.425); // Fully transparent background
-  color: #ffffff; // White text color
-  margin-left: px;
-}
 
 
 .footertext {

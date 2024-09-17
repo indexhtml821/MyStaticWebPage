@@ -8,16 +8,20 @@
   min-height: 110vh;
 }
 
+.text, .standardfooter, .about {
+  background-color: rgba(0, 0, 0, 0.425);
+  color: #ffffff;
+  margin-left: px;
+}
+
+.about {
+  text-align: center;
+}
+
 .img-responsive {
   width: 70%;
   height: 70%;
   object-fit: scale-down;
-}
-
-.text {
-  background-color: rgba(0, 0, 0, 0.425);
-  color: #ffffff;
-  margin-left: px;
 }
 
 .footertext {
@@ -8734,7 +8738,7 @@ textarea.form-control-lg {
   --bs-link-underline-opacity: 1;
 }
 
-.bg-primary {
+.bg-primary, .standardfooter {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
