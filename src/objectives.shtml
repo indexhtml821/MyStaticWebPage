@@ -50,15 +50,15 @@
 
         <div class="row " style="margin:10%; justify-content: center;">
             <div class="card" style="width: 18rem;">
-                <img src="media/road.png" class="card-img-top" alt="...">
+                <img src="media/learning.jfif" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <a href="#" class="btn btn-primary">Aprendizaje continuo</a>
-                    <p class="card-text">Con las distintas virtudes y defectos la unica forma de ser mejores es estar abiertos siempre a aprender cosas nuevas.</p>
+                    <a href="#" class="btn btn-primary">Continuous Learning</a>
+                    <p class="card-text">Amongst virtus and defects continuous learning is a path to always be better</p>
 
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="media/road.png" class="card-img-top" alt="...">
+                <img src="media/team.jfif" class="card-img-top" alt="...">
                 <div class="card-body">
                     <a href="#" class="btn btn-primary">Colaboración con otros </a>
                     <p class="card-text">Una persona sola puede realizar lo increible pero un grupo puede lograrlo inigualable</p>
@@ -66,7 +66,7 @@
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="media/road.png" class="card-img-top" alt="...">
+                <img src="media/team.jfif" class="card-img-top" alt="...">
                 <div class="card-body">
                     <a href="#" class="btn btn-primary">Apoyo técnico</a>
                     <p class="card-text">El paso por la UCR me ha dado fundamentos necesarios para la industtria del software</p>

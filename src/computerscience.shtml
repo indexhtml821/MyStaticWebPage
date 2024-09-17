@@ -50,7 +50,7 @@
 
         <div class="row " style="margin:10%; justify-content: center;">
             <div class="card" style="width: 18rem;">
-                <img src="media/road.png" class="card-img-top" alt="...">
+                <img src="media/ComputerScience.jfif" class="card-img-top" alt="...">
                 <div class="card-body">
                     <a href="#" class="btn btn-primary">Why Computer Science?</a>
                     <p class="card-text">The main reason , problem solving, but learn more about the career</p>
@@ -58,7 +58,7 @@
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="media/road.png" class="card-img-top" alt="...">
+                <img src="media/malla.PNG" class="card-img-top" alt="...">
                 <div class="card-body">
                     <a href="#" class="btn btn-primary">Favorite Courses </a>
                     <p class="card-text">An important theorical foundation that then is completed with more practical courses</p>
@@ -66,10 +66,10 @@
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="media/road.png" class="card-img-top" alt="...">
+                <img src="media/colleagues.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <a href="#" class="btn btn-primary">Colleagues and  Professors</a>
-                    <p class="card-text">El paso por la UCR me ha dado fundamentos necesarios para la industtria del software</p>
+                    <p class="card-text">El paso por la UCR me ha dado fundamentos necesarios para la industria del software</p>
                     
                 </div>
             </div>
