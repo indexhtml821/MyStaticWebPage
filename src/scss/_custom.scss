@@ -1,6 +1,5 @@
 //Theme Colors
 
-$blue: #0d6efd !default;
 $green: #198754 !default;
 $teal: #20c997 !default;
 $darkgreen: #2E4E1E;
@@ -22,14 +21,26 @@ $black: #000;
 // scss-docs-end gray-color-variables
 
 
+// Mixins
+
+
+@mixin shared-styles {
+  @extend .card;
+  width: 18rem;
+
+}
+
 //Background
+
+
+
 .background {
   background-image: url('../media/Background.png');
   background-size: cover; // Cover the entire element
   background-position: center; // Center the image
   background-repeat: no-repeat; // Prevent repetition
   height: auto;
-  min-height: 110vh;
+  min-height: 150vh;
 
 }
 
@@ -39,15 +50,22 @@ $black: #000;
   margin-left: px;
 }
 
+.tittlehobbies,
+.titleobjectives {
+ @extend .bg-primary;
+ color: #ffffff;
+ @extend .container-fluid;
 
-.about{
- text-align: center;
+}
+
+.about {
+  text-align: center;
   @extend .text;
 }
 
-.standardfooter{
+.standardfooter {
 
-  
+
   @extend .bg-primary;
   @extend .text;
 }
@@ -65,7 +83,7 @@ $black: #000;
 
 .footertext {
   color: #ffffff; // White text color
-  
+
 }
 
 .navigationbar {
@@ -142,6 +160,25 @@ $black: #000;
 }
 
 
+.careercontent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; // Espacio entre las tarjetas
+  padding-top: 80px;
+}
+
+.whycompscience,
+.favoritecourses,
+.people {
+  width: 20rem;
+}
+
+.whycompscience,
+.favoritecourses,
+.people {
+  @extend .card;
+}
 
 $primary: $darkgreen;
 $secondary: $green;

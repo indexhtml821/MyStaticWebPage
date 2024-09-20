@@ -5,13 +5,18 @@
   background-position: center;
   background-repeat: no-repeat;
   height: auto;
-  min-height: 110vh;
+  min-height: 150vh;
 }
 
 .text, .standardfooter, .about {
   background-color: rgba(0, 0, 0, 0.425);
   color: #ffffff;
   margin-left: px;
+}
+
+.tittlehobbies,
+.titleobjectives {
+  color: #ffffff;
 }
 
 .about {
@@ -74,6 +79,20 @@
 }
 .navigationbar .navbar-nav .nav-item:hover .nav-link::before, .navigationbar .navbar-nav .nav-item:hover .nav-link::after {
   border-color: transparent #1F3B15 transparent transparent;
+}
+
+.careercontent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 80px;
+}
+
+.whycompscience,
+.favoritecourses,
+.people {
+  width: 20rem;
 }
 
 /*!
@@ -810,7 +829,9 @@ progress {
 .container-xl,
 .container-lg,
 .container-md,
-.container-sm {
+.container-sm,
+.tittlehobbies,
+.titleobjectives {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 100%;
@@ -3970,12 +3991,16 @@ textarea.form-control-lg {
 }
 .navbar > .container,
 .navbar > .container-fluid,
+.navbar > .tittlehobbies,
+.navbar > .titleobjectives,
 .navbar > .container-sm,
 .navbar > .container-md,
 .navbar > .container-lg,
 .navbar > .container-xl,
 .navbar > .container-xxl, .navigationbar > .container,
 .navigationbar > .container-fluid,
+.navigationbar > .tittlehobbies,
+.navigationbar > .titleobjectives,
 .navigationbar > .container-sm,
 .navigationbar > .container-md,
 .navigationbar > .container-lg,
@@ -4373,7 +4398,9 @@ textarea.form-control-lg {
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-.card {
+.card, .whycompscience,
+.favoritecourses,
+.people {
   --bs-card-spacer-y: 1rem;
   --bs-card-spacer-x: 1rem;
   --bs-card-title-spacer-y: 0.5rem;
@@ -4405,26 +4432,39 @@ textarea.form-control-lg {
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
   border-radius: var(--bs-card-border-radius);
 }
-.card > hr {
+.card > hr, .whycompscience > hr,
+.favoritecourses > hr,
+.people > hr {
   margin-right: 0;
   margin-left: 0;
 }
-.card > .list-group {
+.card > .list-group, .whycompscience > .list-group,
+.favoritecourses > .list-group,
+.people > .list-group {
   border-top: inherit;
   border-bottom: inherit;
 }
-.card > .list-group:first-child {
+.card > .list-group:first-child, .whycompscience > .list-group:first-child,
+.favoritecourses > .list-group:first-child,
+.people > .list-group:first-child {
   border-top-width: 0;
   border-top-left-radius: var(--bs-card-inner-border-radius);
   border-top-right-radius: var(--bs-card-inner-border-radius);
 }
-.card > .list-group:last-child {
+.card > .list-group:last-child, .whycompscience > .list-group:last-child,
+.favoritecourses > .list-group:last-child,
+.people > .list-group:last-child {
   border-bottom-width: 0;
   border-bottom-right-radius: var(--bs-card-inner-border-radius);
   border-bottom-left-radius: var(--bs-card-inner-border-radius);
 }
-.card > .card-header + .list-group,
-.card > .list-group + .card-footer {
+.card > .card-header + .list-group, .whycompscience > .card-header + .list-group,
+.favoritecourses > .card-header + .list-group,
+.people > .card-header + .list-group,
+.card > .list-group + .card-footer,
+.whycompscience > .list-group + .card-footer,
+.favoritecourses > .list-group + .card-footer,
+.people > .list-group + .card-footer {
   border-top: 0;
 }
 
@@ -4518,7 +4558,9 @@ textarea.form-control-lg {
   border-bottom-left-radius: var(--bs-card-inner-border-radius);
 }
 
-.card-group > .card {
+.card-group > .card, .card-group > .whycompscience,
+.card-group > .favoritecourses,
+.card-group > .people {
   margin-bottom: var(--bs-card-group-margin);
 }
 @media (min-width: 576px) {
@@ -4526,36 +4568,74 @@ textarea.form-control-lg {
     display: flex;
     flex-flow: row wrap;
   }
-  .card-group > .card {
+  .card-group > .card, .card-group > .whycompscience,
+  .card-group > .favoritecourses,
+  .card-group > .people {
     flex: 1 0 0%;
     margin-bottom: 0;
   }
-  .card-group > .card + .card {
+  .card-group > .card + .card, .card-group > .whycompscience + .card,
+  .card-group > .favoritecourses + .card,
+  .card-group > .people + .card, .card-group > .card + .whycompscience, .card-group > .whycompscience + .whycompscience,
+  .card-group > .favoritecourses + .whycompscience,
+  .card-group > .people + .whycompscience,
+  .card-group > .card + .favoritecourses,
+  .card-group > .whycompscience + .favoritecourses,
+  .card-group > .favoritecourses + .favoritecourses,
+  .card-group > .people + .favoritecourses,
+  .card-group > .card + .people,
+  .card-group > .whycompscience + .people,
+  .card-group > .favoritecourses + .people,
+  .card-group > .people + .people {
     margin-left: 0;
     border-left: 0;
   }
-  .card-group > .card:not(:last-child) {
+  .card-group > .card:not(:last-child), .card-group > .whycompscience:not(:last-child),
+  .card-group > .favoritecourses:not(:last-child),
+  .card-group > .people:not(:last-child) {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
-  .card-group > .card:not(:last-child) .card-img-top,
-  .card-group > .card:not(:last-child) .card-header {
+  .card-group > .card:not(:last-child) .card-img-top, .card-group > .whycompscience:not(:last-child) .card-img-top,
+  .card-group > .favoritecourses:not(:last-child) .card-img-top,
+  .card-group > .people:not(:last-child) .card-img-top,
+  .card-group > .card:not(:last-child) .card-header,
+  .card-group > .whycompscience:not(:last-child) .card-header,
+  .card-group > .favoritecourses:not(:last-child) .card-header,
+  .card-group > .people:not(:last-child) .card-header {
     border-top-right-radius: 0;
   }
-  .card-group > .card:not(:last-child) .card-img-bottom,
-  .card-group > .card:not(:last-child) .card-footer {
+  .card-group > .card:not(:last-child) .card-img-bottom, .card-group > .whycompscience:not(:last-child) .card-img-bottom,
+  .card-group > .favoritecourses:not(:last-child) .card-img-bottom,
+  .card-group > .people:not(:last-child) .card-img-bottom,
+  .card-group > .card:not(:last-child) .card-footer,
+  .card-group > .whycompscience:not(:last-child) .card-footer,
+  .card-group > .favoritecourses:not(:last-child) .card-footer,
+  .card-group > .people:not(:last-child) .card-footer {
     border-bottom-right-radius: 0;
   }
-  .card-group > .card:not(:first-child) {
+  .card-group > .card:not(:first-child), .card-group > .whycompscience:not(:first-child),
+  .card-group > .favoritecourses:not(:first-child),
+  .card-group > .people:not(:first-child) {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
-  .card-group > .card:not(:first-child) .card-img-top,
-  .card-group > .card:not(:first-child) .card-header {
+  .card-group > .card:not(:first-child) .card-img-top, .card-group > .whycompscience:not(:first-child) .card-img-top,
+  .card-group > .favoritecourses:not(:first-child) .card-img-top,
+  .card-group > .people:not(:first-child) .card-img-top,
+  .card-group > .card:not(:first-child) .card-header,
+  .card-group > .whycompscience:not(:first-child) .card-header,
+  .card-group > .favoritecourses:not(:first-child) .card-header,
+  .card-group > .people:not(:first-child) .card-header {
     border-top-left-radius: 0;
   }
-  .card-group > .card:not(:first-child) .card-img-bottom,
-  .card-group > .card:not(:first-child) .card-footer {
+  .card-group > .card:not(:first-child) .card-img-bottom, .card-group > .whycompscience:not(:first-child) .card-img-bottom,
+  .card-group > .favoritecourses:not(:first-child) .card-img-bottom,
+  .card-group > .people:not(:first-child) .card-img-bottom,
+  .card-group > .card:not(:first-child) .card-footer,
+  .card-group > .whycompscience:not(:first-child) .card-footer,
+  .card-group > .favoritecourses:not(:first-child) .card-footer,
+  .card-group > .people:not(:first-child) .card-footer {
     border-bottom-left-radius: 0;
   }
 }
@@ -8738,7 +8818,8 @@ textarea.form-control-lg {
   --bs-link-underline-opacity: 1;
 }
 
-.bg-primary, .standardfooter {
+.bg-primary, .tittlehobbies,
+.titleobjectives, .standardfooter {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
