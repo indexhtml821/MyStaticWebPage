@@ -14,7 +14,7 @@
 
     <div class="background">
         <!-- Content goes here -->
-        <!-- Navbar  -->
+ 
        <!-- Incluir el navbar -->
         <!--#include virtual="nav.shtml" -->
 

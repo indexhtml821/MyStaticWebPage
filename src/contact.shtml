@@ -13,40 +13,8 @@
 
 
     <div class="background">
-        <!-- Content goes here -->
-  
-        <!-- Navbar  -->
-        <nav class="navigationbar navbardesign">
-          <div class="container">
-              <a class="navbar-brand" href="index.shtml">Newton Dev</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-
-              <div class="collapse navbar-collapse" id="navbarNav">
-                  <div class="mx-auto"></div>
-                  <ul class="navbar-nav">
-                      <li class="nav-item">
-                          <a class="nav-link text-white" href="objectives.shtml">Mis objetivos</a>
-                      </li>
-                      <li class="nav-item">
-
-                          <a class="nav-link text-white" href="computerscience.shtml">Computación</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link text-white" href="hobbies.shtml">Pasatiempos</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link text-white" href="about.shtml">Acerca de este sitio</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link text-white" href="contact.shtml">Contáctame</a>
-                      </li>
-                  </ul>
-              </div>
-          </div>
-      </nav>
+        <!-- Incluir el navbar -->
+        <!--#include virtual="nav.shtml" -->
 
         <div class="container py-5">
             <div class="row g-5">
