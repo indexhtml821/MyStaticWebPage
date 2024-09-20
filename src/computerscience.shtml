@@ -49,32 +49,36 @@
 
 
 
-        <div class="row " style="margin:10%; justify-content: center;">
-            <div class="card" style="width: 18rem;">
+        <div class="careercontent " >
+            <div class="whycompscience">
                 <img src="media/ComputerScience.jfif" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <a href="#" class="btn btn-primary">Why Computer Science?</a>
+                    <a href="whycompsci.shtml" class="btn btn-primary">Why Computer Science?</a>
                     <p class="card-text">The main reason , problem solving, but learn more about the career</p>
 
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="favoritecourses">
                 <img src="media/malla.PNG" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <a href="#" class="btn btn-primary">Favorite Courses </a>
+                    <a href="favoritecourses.shtml" class="btn btn-primary">Favorite Courses </a>
                     <p class="card-text">An important theorical foundation that then is completed with more practical courses</p>
                    
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="people">
                 <img src="media/colleagues.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <a href="#" class="btn btn-primary">Colleagues and  Professors</a>
+                    <a href="people.html" class="btn btn-primary">Colleagues and  Professors</a>
                     <p class="card-text">El paso por la UCR me ha dado fundamentos necesarios para la industria del software</p>
                     
                 </div>
             </div>
         </div>
+  
+  
+
+        
     </div>
 
 
@@ -90,7 +94,7 @@
         integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
         crossorigin="anonymous"></script>
     <!-- <script src="assets/js/popper.min.js"></script> -->
-    </div>
+  
     <!-- Footer Block Start -->
     <footer id="footer" class="standardfooter">
         <div class="container-fluid  bg-primary text">
