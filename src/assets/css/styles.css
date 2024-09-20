@@ -8,7 +8,7 @@
   min-height: 150vh;
 }
 
-.text, .standardfooter, .about {
+.text, .contactform, .titlehobbies, .titleobjectives, .standardfooter, .about {
   background-color: rgba(0, 0, 0, 0.425);
   color: #ffffff;
   margin-left: px;
@@ -842,7 +842,7 @@ progress {
   color: var(--bs-secondary-color);
 }
 
-.container,
+.container, .titlehobbies, .titleobjectives, .contact,
 .container-fluid,
 .container-xxl,
 .container-xl,
@@ -861,27 +861,27 @@ progress {
 }
 
 @media (min-width: 576px) {
-  .container-sm, .container {
+  .container-sm, .container, .titlehobbies, .titleobjectives, .contact {
     max-width: 540px;
   }
 }
 @media (min-width: 768px) {
-  .container-md, .container-sm, .container {
+  .container-md, .container-sm, .container, .titlehobbies, .titleobjectives, .contact {
     max-width: 720px;
   }
 }
 @media (min-width: 992px) {
-  .container-lg, .container-md, .container-sm, .container {
+  .container-lg, .container-md, .container-sm, .container, .titlehobbies, .titleobjectives, .contact {
     max-width: 960px;
   }
 }
 @media (min-width: 1200px) {
-  .container-xl, .container-lg, .container-md, .container-sm, .container {
+  .container-xl, .container-lg, .container-md, .container-sm, .container, .titlehobbies, .titleobjectives, .contact {
     max-width: 1140px;
   }
 }
 @media (min-width: 1400px) {
-  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container, .titlehobbies, .titleobjectives, .contact {
     max-width: 1320px;
   }
 }
@@ -894,7 +894,7 @@ progress {
   --bs-breakpoint-xxl: 1400px;
 }
 
-.row {
+.row, .contactroworder {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
@@ -903,7 +903,7 @@ progress {
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
-.row > * {
+.row > *, .contactroworder > * {
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
@@ -1110,12 +1110,12 @@ progress {
   --bs-gutter-y: 1.5rem;
 }
 
-.g-5,
+.g-5, .contactroworder,
 .gx-5 {
   --bs-gutter-x: 3rem;
 }
 
-.g-5,
+.g-5, .contactroworder,
 .gy-5 {
   --bs-gutter-y: 3rem;
 }
@@ -1683,7 +1683,7 @@ progress {
     flex: 0 0 auto;
     width: 41.66666667%;
   }
-  .col-xl-6 {
+  .col-xl-6, .contactinfo, .contactform {
     flex: 0 0 auto;
     width: 50%;
   }
@@ -4008,18 +4008,16 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
 }
-.navbar > .container,
+.navbar > .container, .navbar > .titlehobbies, .navbar > .titleobjectives, .navbar > .contact,
 .navbar > .container-fluid,
 .navbar > .tittlehobbies,
-.navbar > .titleobjectives,
 .navbar > .container-sm,
 .navbar > .container-md,
 .navbar > .container-lg,
 .navbar > .container-xl,
-.navbar > .container-xxl, .navigationbar > .container,
+.navbar > .container-xxl, .navigationbar > .container, .navigationbar > .titlehobbies, .navigationbar > .titleobjectives, .navigationbar > .contact,
 .navigationbar > .container-fluid,
 .navigationbar > .tittlehobbies,
-.navigationbar > .titleobjectives,
 .navigationbar > .container-sm,
 .navigationbar > .container-md,
 .navigationbar > .container-lg,
@@ -8265,7 +8263,7 @@ textarea.form-control-lg {
   padding-bottom: 1.5rem !important;
 }
 
-.py-5 {
+.py-5, .contact {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
 }
@@ -8865,7 +8863,7 @@ textarea.form-control-lg {
 }
 
 .bg-primary, .tittlehobbies,
-.titleobjectives, .standardfooter {
+.titleobjectives, .standardfooter, .titlehobbies {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }

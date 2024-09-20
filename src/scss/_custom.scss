@@ -179,6 +179,33 @@ $black: #000;
   width: 20rem;
 }
 
+.titlehobbies,.titleobjectives{
+
+ @extend .bg-primary;
+ @extend .text;
+ @extend .container;
+}
+
+
+.contact{
+  @extend .container;
+  @extend .py-5;
+
+}
+
+.contactroworder{
+  @extend .row;
+  @extend .g-5;
+}
+.contactinfo{
+  @extend  .col-xl-6;
+}
+
+.contactform{
+  @extend  .col-xl-6;
+  @extend  .text;
+
+}
 
 
 $primary: $darkgreen;
