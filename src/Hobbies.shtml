@@ -49,9 +49,9 @@
 
 
 
-<div class="container bg-light">
-    <H1>Hobbies</H1>
-</div>
+        <div class="bg-primary text container">
+            <H1>Hobbies</H1>
+        </div>
         <div class="album py-5 ">
             <div class="container">
 
@@ -67,7 +67,9 @@
 
                     <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" src="https://www.kitchenaid.com/is/image/content/dam/business-unit/kitchenaid/en-us/marketing-content/site-assets/page-content/blog/how-to-make-frozen-coffee-with-a-blender/HowToMakeFrozenCoffeeWithABlender_H2-3.jpg?fmt=png-alpha&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0&scl=1&constrain=fit,1" alt="Card image cap">
+                            <img class="card-img-top"
+                                src="https://www.kitchenaid.com/is/image/content/dam/business-unit/kitchenaid/en-us/marketing-content/site-assets/page-content/blog/how-to-make-frozen-coffee-with-a-blender/HowToMakeFrozenCoffeeWithABlender_H2-3.jpg?fmt=png-alpha&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0&scl=1&constrain=fit,1"
+                                alt="Card image cap">
                             <div class="card-body">
                                 <H6 class="card-text">Coffee</h6>
                             </div>
@@ -76,7 +78,9 @@
 
                     <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" src="https://guiauniversitaria.mx/wp-content/uploads/2020/03/En-el-D%C3%ADa-Mundial-del-Teatro_-las-10-obras-de-teatro-m%C3%A1s-exitosas-de-la-historia.jpg" alt="Card image cap">
+                            <img class="card-img-top"
+                                src="https://guiauniversitaria.mx/wp-content/uploads/2020/03/En-el-D%C3%ADa-Mundial-del-Teatro_-las-10-obras-de-teatro-m%C3%A1s-exitosas-de-la-historia.jpg"
+                                alt="Card image cap">
                             <div class="card-body">
                                 <H6 class="card-text">Theater</h6>
                             </div>
@@ -95,16 +99,20 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" src="https://th.bing.com/th/id/R.727dd5f1c191e9010dcce03787ba0190?rik=G0%2boawmoR%2fxEsA&pid=ImgRaw&r=0" alt="Card image cap">
+                            <img class="card-img-top"
+                                src="https://th.bing.com/th/id/R.727dd5f1c191e9010dcce03787ba0190?rik=G0%2boawmoR%2fxEsA&pid=ImgRaw&r=0"
+                                alt="Card image cap">
                             <div class="card-body">
-                                <H6 class="card-text">Videojuegos</h6>
+                                <H6 class="card-text">Videogames</h6>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" src="https://th.bing.com/th/id/R.130a0dc916cf8a9f91dc201f625069e1?rik=NU6fSJNRMTk7fg&pid=ImgRaw&r=0Gutierrez640" alt="Card image cap">
+                            <img class="card-img-top"
+                                src="https://th.bing.com/th/id/R.130a0dc916cf8a9f91dc201f625069e1?rik=NU6fSJNRMTk7fg&pid=ImgRaw&r=0Gutierrez640"
+                                alt="Card image cap">
                             <div class="card-body">
                                 <H6 class="card-text">Gardening</h6>
                             </div>
@@ -113,7 +121,9 @@
 
                     <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" src="https://th.bing.com/th/id/OIP.4JF2H_bYsW2oUUP6U8xfwwHaD4?w=800&h=420&rs=1&pid=ImgDetMaing" alt="Card image cap">
+                            <img class="card-img-top"
+                                src="https://th.bing.com/th/id/OIP.4JF2H_bYsW2oUUP6U8xfwwHaD4?w=800&h=420&rs=1&pid=ImgDetMaing"
+                                alt="Card image cap">
                             <div class="card-body">
                                 <H6 class="card-text">Listen to music</h6>
                             </div>
