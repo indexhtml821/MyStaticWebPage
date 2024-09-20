@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rafa Gutiérrez</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body>
+
+
+    <div class="background">
+        <!-- Content goes here -->
+        <!-- Navbar  -->
+        <nav class="navigationbar navbardesign">
+            <div class="container">
+                <a class="navbar-brand" href="index.shtml">Newton Dev</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mx-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="objectives.shtml">Mis objetivos</a>
+                        </li>
+                        <li class="nav-item">
+
+                            <a class="nav-link text-white" href="computerscience.shtml">Computación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="hobbies.shtml">Pasatiempos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="about.shtml">Acerca de este sitio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contact.shtml">Contáctame</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+
+        <!-- Why Comp Science-->
+        <section id="banner" class="home">
+            <div class="container-fluid text ">
+                <div class="row justify-content: center">
+                 
+                        <h1 class="display-2">Why Computer Science</h1>
+
+                        <p>As a person that is ending its third career year of Computer Science with the doubts rising about Artificial Inteligence and a shortage in internships and junior opportunities compared to past years  still can be seen
+                            many reasons as to why study Computer Science.
+                        </p>
+                 
+                        <h5>There are a few main reasons why students choose to study Computer Science. 
+                            First, technology envelopes our whole lives and many strive to contribute to
+                             that technology. Second, Computer Science is an ever-growing field with boundless
+                              opportunities still. Third, Computer Science education allows one to have a 
+                              global impact via the technology that can be created.
+                        </h5>
+                        <img  class="img-responsive" src="https://cdn-0.compscicentral.com/wp-content/uploads/2020/07/WhyCS.jpg?ezimgfmt=rs%3Adevice%2Frscb1-1" alt="why Computer Science">
+                        <h1>Why I Chose To Study Computer Science</h1>
+                        <p>Sincerely just because the career has a fancy name that have a scence of future and big things.</p>
+                        <p>But the reason I stayed is the skills around problem solving and the opportunities of working in teams of different areas.</p>
+                </div>
+
+            </div>
+        </section>
+        <!-- END-->
+
+
+
+
+
+        <footer id="footer" class="standardfooter">
+            <div class="container-fluid  bg-primary text">
+                <div class="row">
+                    <div class="col-6 col-lg-4">
+                        <h3 class="fw-bold">Rafa Gutiérrez</h3>
+                        <p class="mb-2">8475-6566</p>
+                        <p>isaacopine@gmail.com</p>
+                    </div>
+                    <div class="col">
+                        <h4>Menu</h4>
+
+
+                        <ul class="list-unstyled pt-2">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="objectives.shtml">Mis Objetivos</a>
+                            </li>
+                            <li class="nav-item">
+
+                                <a class="nav-link text-white" href="computerscience.shtml">Computación</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="hobbies.shtml">Pasatiempos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="about.shtml">Acerca de este sitio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="contact.shtml">Contáctame</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-lg-3 text-lg-end">
+                        <h4>Social Media Links</h4>
+                        <div class="social-media pt-2">
+                            <a href="#" class="text-light fs-2 me-3"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="text-light fs-2 me-3"><i class="bi bi-pinterest"></i></a>
+                            <a href="#" class="text-light fs-2 me-3"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="text-light fs-2"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-sm-flex justify-content-between py-1">
+                    <p>2024 © Rafa Dev. All Rights Reserved. </p>
+                    <p>
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer Block Start -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+            integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+            integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+            crossorigin="anonymous"></script>
+        <!-- <script src="assets/js/popper.min.js"></script> -->
+    </div>
+
+</body>
+
+</html>
