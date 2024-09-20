@@ -117,7 +117,7 @@ $black: #000;
         position: relative;
       }
 
-      // Adding the triangles on the <li>
+      //triangles on the <li>
       &::before,
       &::after {
         content: "";
@@ -131,7 +131,7 @@ $black: #000;
       // Left triangle
       &::before {
         left: -15px;
-        border-width: 20px 15px 20px 0;
+        border-width: 20px 15px 25px 0;
         border-color: transparent #2E4E1E transparent transparent;
       }
 
@@ -145,7 +145,7 @@ $black: #000;
       // Hover effect to change background color
       &:hover {
         .nav-link {
-          background-color: #1F3B15; // Darker green
+          background-color: #579e3e; // Darker green
 
           &::before,
           &::after {
@@ -160,23 +160,24 @@ $black: #000;
 }
 
 
-.careercontent {
+.careercontent, .downloadable {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px; // Espacio entre las tarjetas
   padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .whycompscience,
 .favoritecourses,
-.people {
+.people,.random,.thiswebproject,.mvcdotnetexample {
   width: 20rem;
 }
 
 .whycompscience,
 .favoritecourses,
-.people {
+.people,.random,.thiswebproject,.mvcdotnetexample {
   @extend .card;
 }
 
