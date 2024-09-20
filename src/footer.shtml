@@ -1,4 +1,6 @@
-        <!-- Footer Block Start -->
+       
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css">
+       <!-- Footer Block Start -->
         <footer id="footer" class="standardfooter">
           <div class="container-fluid  bg-primary text">
               <div class="row">
@@ -34,7 +36,7 @@
                   <div class="col-6 col-lg-3 text-lg-end">
                       <h4>Social Media Links</h4>
                       <div class="social-media pt-2">
-                          <a href="#" class="text-light fs-2 me-3"><i class="bi bi-facebook"></i></a>
+                          <a href="#" class="text-light fs-2 me-3"><i class=" bi-facebook"></i></a>
                           <a href="#" class="text-light fs-2 me-3"><i class="bi bi-pinterest"></i></a>
                           <a href="#" class="text-light fs-2 me-3"><i class="bi bi-instagram"></i></a>
                           <a href="#" class="text-light fs-2"><i class="bi bi-linkedin"></i></a>
