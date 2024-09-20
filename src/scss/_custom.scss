@@ -176,6 +176,7 @@ $black: #000;
 .favoritecourses,
 .people,.random,.thiswebproject,.mvcdotnetexample {
   @extend .card;
+  width: 20rem;
 }
 
 
