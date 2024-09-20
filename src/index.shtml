@@ -16,7 +16,7 @@
         <!-- Content goes here -->
         <!-- Navbar  -->
        <!-- Incluir el navbar -->
-        <!--#include virtual="src\layouts\nav.html" -->
+        <!--#include virtual="src\layouts\nav.shtml" -->
 
 
 
