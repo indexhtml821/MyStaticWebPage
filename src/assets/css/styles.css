@@ -42,12 +42,16 @@
   margin: 0;
   display: flex;
 }
-.navigationbar .navbar-nav .nav-item {
+.navigationbar .navbar-nav .myobjectivesnav, .navigationbar .navbar-nav .compscinav,
+.navigationbar .navbar-nav .hobbiesnav,
+.navigationbar .navbar-nav .aboutnav, .navigationbar .navbar-nav .contactnav {
   position: relative;
   margin-right: 15px;
   padding: 0;
 }
-.navigationbar .navbar-nav .nav-item .nav-link {
+.navigationbar .navbar-nav .myobjectivesnav .nav-link, .navigationbar .navbar-nav .compscinav .nav-link,
+.navigationbar .navbar-nav .hobbiesnav .nav-link,
+.navigationbar .navbar-nav .aboutnav .nav-link, .navigationbar .navbar-nav .contactnav .nav-link {
   display: block;
   padding: 10px 20px;
   background-color: #2E4E1E;
@@ -56,7 +60,11 @@
   font-weight: bold;
   position: relative;
 }
-.navigationbar .navbar-nav .nav-item::before, .navigationbar .navbar-nav .nav-item::after {
+.navigationbar .navbar-nav .myobjectivesnav::before, .navigationbar .navbar-nav .myobjectivesnav::after, .navigationbar .navbar-nav .compscinav::before, .navigationbar .navbar-nav .compscinav::after,
+.navigationbar .navbar-nav .hobbiesnav::before,
+.navigationbar .navbar-nav .hobbiesnav::after,
+.navigationbar .navbar-nav .aboutnav::before,
+.navigationbar .navbar-nav .aboutnav::after, .navigationbar .navbar-nav .contactnav::before, .navigationbar .navbar-nav .contactnav::after {
   content: "";
   position: absolute;
   top: 0;
@@ -64,20 +72,30 @@
   height: 0;
   border-style: solid;
 }
-.navigationbar .navbar-nav .nav-item::before {
+.navigationbar .navbar-nav .myobjectivesnav::before, .navigationbar .navbar-nav .compscinav::before,
+.navigationbar .navbar-nav .hobbiesnav::before,
+.navigationbar .navbar-nav .aboutnav::before, .navigationbar .navbar-nav .contactnav::before {
   left: -15px;
   border-width: 20px 15px 25px 0;
   border-color: transparent #2E4E1E transparent transparent;
 }
-.navigationbar .navbar-nav .nav-item::after {
+.navigationbar .navbar-nav .myobjectivesnav::after, .navigationbar .navbar-nav .compscinav::after,
+.navigationbar .navbar-nav .hobbiesnav::after,
+.navigationbar .navbar-nav .aboutnav::after, .navigationbar .navbar-nav .contactnav::after {
   right: -15px;
   border-width: 20px 0 20px 15px;
   border-color: transparent transparent transparent #2E4E1E;
 }
-.navigationbar .navbar-nav .nav-item:hover .nav-link {
+.navigationbar .navbar-nav .myobjectivesnav:hover .nav-link, .navigationbar .navbar-nav .compscinav:hover .nav-link,
+.navigationbar .navbar-nav .hobbiesnav:hover .nav-link,
+.navigationbar .navbar-nav .aboutnav:hover .nav-link, .navigationbar .navbar-nav .contactnav:hover .nav-link {
   background-color: #579e3e;
 }
-.navigationbar .navbar-nav .nav-item:hover .nav-link::before, .navigationbar .navbar-nav .nav-item:hover .nav-link::after {
+.navigationbar .navbar-nav .myobjectivesnav:hover .nav-link::before, .navigationbar .navbar-nav .myobjectivesnav:hover .nav-link::after, .navigationbar .navbar-nav .compscinav:hover .nav-link::before, .navigationbar .navbar-nav .compscinav:hover .nav-link::after,
+.navigationbar .navbar-nav .hobbiesnav:hover .nav-link::before,
+.navigationbar .navbar-nav .hobbiesnav:hover .nav-link::after,
+.navigationbar .navbar-nav .aboutnav:hover .nav-link::before,
+.navigationbar .navbar-nav .aboutnav:hover .nav-link::after, .navigationbar .navbar-nav .contactnav:hover .nav-link::before, .navigationbar .navbar-nav .contactnav:hover .nav-link::after {
   border-color: transparent #1F3B15 transparent transparent;
 }
 
@@ -88,12 +106,6 @@
   gap: 30px;
   padding-top: 80px;
   padding-bottom: 80px;
-}
-
-.whycompscience,
-.favoritecourses,
-.people, .random, .thiswebproject, .mvcdotnetexample {
-  width: 20rem;
 }
 
 /*!

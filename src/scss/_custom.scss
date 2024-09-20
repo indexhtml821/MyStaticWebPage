@@ -101,7 +101,9 @@ $black: #000;
     margin: 0;
     display: flex;
 
-    .nav-item {
+    .myobjectivesnav,.compscinav,
+    .hobbiesnav,
+    .aboutnav,.contactnav {
       position: relative;
       margin-right: 15px;
       padding: 0;
@@ -169,17 +171,14 @@ $black: #000;
   padding-bottom: 80px;
 }
 
-.whycompscience,
-.favoritecourses,
-.people,.random,.thiswebproject,.mvcdotnetexample {
-  width: 20rem;
-}
 
 .whycompscience,
 .favoritecourses,
 .people,.random,.thiswebproject,.mvcdotnetexample {
   @extend .card;
 }
+
+
 
 $primary: $darkgreen;
 $secondary: $green;
