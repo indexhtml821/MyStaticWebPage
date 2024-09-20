@@ -46,94 +46,86 @@
                 </div>
             </div>
         </nav>
+
+        
         <div class="bg-primary text container">
             <H1>Objectives</H1>
         </div>
         <div class="album py-5 "></div>
-            <div class="container">
+        <div class="container">
 
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" src="media/internship.jfif" alt="Card image cap">
-                            <div class="card-body">
-                                <H6 class="card-text">Internship</h6>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top"
-                                src="media/job.png "
-                                alt="Card image cap">
-                            <div class="card-body">
-                                <H6 class="card-text">Job</h6>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top"
-                                src="media/teach.jfif"
-                                alt="Card image cap">
-                            <div class="card-body">
-                                <H6 class="card-text">Teach</h6>
-                            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="media/internship.jfif" alt="Card image cap">
+                        <div class="card-body">
+                            <H6 class="card-text">Internship</h6>
                         </div>
                     </div>
                 </div>
 
-
-
-            </div>
-            <div class="album py-5 "></div>
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" src="media/chirripo.jfif" alt="Card image cap">
-                            <div class="card-body">
-                                <H6 class="card-text">Hike the Chirripo</h6>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top"
-                                src="https://www.lavanguardia.com/uploads/2018/06/15/5fa43d71a111f.jpeg"
-                                alt="Card image cap">
-                            <div class="card-body">
-                                <H6 class="card-text">Travel</h6>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top"
-                                src="media/consultant.webp"
-                                alt="Card image cap">
-                            <div class="card-body">
-                                <H6 class="card-text">Become a consultant</h6>
-                            </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="media/job.png " alt="Card image cap">
+                        <div class="card-body">
+                            <H6 class="card-text">Job</h6>
                         </div>
                     </div>
                 </div>
 
-
-
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="media/teach.jfif" alt="Card image cap">
+                        <div class="card-body">
+                            <H6 class="card-text">Teach</h6>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+
+
+        </div>
+        <div class="album py-5 "></div>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="media/chirripo.jfif" alt="Card image cap">
+                        <div class="card-body">
+                            <H6 class="card-text">Hike the Chirripo</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            src="https://www.lavanguardia.com/uploads/2018/06/15/5fa43d71a111f.jpeg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <H6 class="card-text">Travel</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="media/consultant.webp" alt="Card image cap">
+                        <div class="card-body">
+                            <H6 class="card-text">Become a consultant</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
 
         </div>
 
-      
-
-    
     </div>
+
 
 
 
