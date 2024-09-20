@@ -95,8 +95,8 @@
               </div>
       
               <!-- Contact Form Block -->
-              <div class="col-xl-6">
-                <h2 class="pb-4">Leave a message</h2>
+              <div class="col-xl-6 text">
+                <h2 class="">Leave a message</h2>
                 <div class="row g-4">
                   <div class="col-6 mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Fname</label>
