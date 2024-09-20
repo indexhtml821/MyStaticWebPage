@@ -1,0 +1,17 @@
+<html>
+<head>
+  <title>Ejemplo SSI: <!--#echo var="TITULO" --></title>	
+</head>
+<body>
+<header>
+  <h1>Este es mi sitio SSI.</h1>
+  <h2><!--#echo var="TITULO" --></h2>
+  <nav>
+    <ul>
+      <li><a href="index.shtml">Inicio</a></li>
+      <li><a href="pagina.shtml">Página</a></li>
+    </ul>
+  </nav>
+</header>
+
+<article>

@@ -1,0 +1,11 @@
+</article>
+
+<aside>
+</aside>
+<footer>
+  <p>Visto el <!--#echo var="DATE_LOCAL" -->.</p>
+  <nav>
+  </nav>
+</footer>
+</body>
+</html>

@@ -1,0 +1,4 @@
+<!--#set var="TITULO" value="Inicio" -->
+<!--#include virtual="header.shtml" -->
+  <p>Hola mundo.</p>
+<!--#include virtual="footer.shtml" -->

@@ -1,0 +1,5 @@
+<!--#set var="TITULO" value="Página" -->
+<!--#include virtual="header.shtml" -->
+  <p>Esto es una página.</p>
+  <pre><samp><!--#exec cmd="ls -la" --></samp></pre>
+<!--#include virtual="footer.shtml" -->
