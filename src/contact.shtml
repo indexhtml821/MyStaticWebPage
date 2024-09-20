@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rafa Gutiérrez</title>
+  <title>Isaac Gutiérrez</title>
   <link rel="stylesheet" href="assets/css/styles.css">
 
 </head>
@@ -57,7 +57,7 @@
           </div>
           <div class="aos-item" data-aos="fade-up" data-aos-delay="800">
             <div class="mt-4 w-100 aos-item__inner">
-              <img src="media/rafa.jpeg" class="img-responsive">
+              <img src="media/Isaac.jpeg" class="img-responsive">
             </div>
           </div>
         </div>

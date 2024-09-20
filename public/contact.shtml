@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rafa Gutiérrez</title>
+    <title>Isaac Gutiérrez</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 
 </head>
@@ -89,7 +89,7 @@
                 </div>
                 <div class="aos-item" data-aos="fade-up" data-aos-delay="800">
                   <div class="mt-4 w-100 aos-item__inner">
-<img src="media/rafa.jpeg" class="img-responsive">
+<img src="media/Isaac.jpeg" class="img-responsive">
                 </div>
                 </div>
               </div>
@@ -135,7 +135,7 @@
             <div class="container-fluid  bg-primary text">
                 <div class="row">
                     <div class="col-6 col-lg-4">
-                        <h3 class="fw-bold">Rafa Gutiérrez</h3>
+                        <h3 class="fw-bold">Isaac Gutiérrez</h3>
                         <p class="mb-2">8475-6566</p>
                         <p>isaacopine@gmail.com</p>
                     </div>
@@ -175,7 +175,7 @@
                 </div>
                 <hr>
                 <div class="d-sm-flex justify-content-between py-1">
-                    <p>2024 © Rafa Dev. All Rights Reserved. </p>
+                    <p>2024 © Isaac Dev. All Rights Reserved. </p>
                     <p>
                     </p>
                 </div>
