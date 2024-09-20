@@ -13,7 +13,7 @@
 
 
     <div class="background">
-       <!-- Incluir el navbar -->
+        <!-- Incluir el navbar -->
         <!--#include virtual="nav.shtml" -->
 
 
@@ -44,7 +44,9 @@
 
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="http://ts2.mm.bing.net/th?id=OIP.Ot-hKsPDF8xn6Jc0Qi7RagHaEK&pid=15.1" alt="Card image cap">
+                        <img class="card-img-top"
+                            src="http://ts2.mm.bing.net/th?id=OIP.Ot-hKsPDF8xn6Jc0Qi7RagHaEK&pid=15.1"
+                            alt="Card image cap">
                         <div class="card-body">
                             <H6 class="card-text">Linear Algebra</h6>
                         </div>
@@ -61,7 +63,9 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="https://th.bing.com/th/id/OIP.bDyvLakYD-NkL7axrsgfKQHaDe?rs=1&pid=ImgDetMain" alt="Card image cap">
+                        <img class="card-img-top"
+                            src="https://th.bing.com/th/id/OIP.bDyvLakYD-NkL7axrsgfKQHaDe?rs=1&pid=ImgDetMain"
+                            alt="Card image cap">
                         <div class="card-body">
                             <H6 class="card-text">Programming 2</h6>
                         </div>
@@ -81,7 +85,9 @@
 
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="https://th.bing.com/th/id/OIP.mt7ZNGw4dFhlQFxGVYGSSQAAAA?rs=1&pid=ImgDetMain" alt="Card image cap">
+                        <img class="card-img-top"
+                            src="https://th.bing.com/th/id/OIP.mt7ZNGw4dFhlQFxGVYGSSQAAAA?rs=1&pid=ImgDetMain"
+                            alt="Card image cap">
                         <div class="card-body">
                             <H6 class="card-text">Software Engineering</h6>
                         </div>
@@ -95,57 +101,9 @@
 
 
 
-        <footer id="footer" class="standardfooter">
-            <div class="container-fluid  bg-primary text">
-                <div class="row">
-                    <div class="col-6 col-lg-4">
-                        <h3 class="fw-bold">Rafa Gutiérrez</h3>
-                        <p class="mb-2">8475-6566</p>
-                        <p>isaacopine@gmail.com</p>
-                    </div>
-                    <div class="col">
-                        <h4>Menu</h4>
-
-
-                        <ul class="list-unstyled pt-2">
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="objectives.shtml">Mis Objetivos</a>
-                            </li>
-                            <li class="nav-item">
-
-                                <a class="nav-link text-white" href="computerscience.shtml">Computación</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="hobbies.shtml">Pasatiempos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="about.shtml">Acerca de este sitio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="contact.shtml">Contáctame</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-6 col-lg-3 text-lg-end">
-                        <h4>Social Media Links</h4>
-                        <div class="social-media pt-2">
-                            <a href="#" class="text-light fs-2 me-3"><i class="bi bi-facebook"></i></a>
-                            <a href="#" class="text-light fs-2 me-3"><i class="bi bi-pinterest"></i></a>
-                            <a href="#" class="text-light fs-2 me-3"><i class="bi bi-instagram"></i></a>
-                            <a href="#" class="text-light fs-2"><i class="bi bi-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <div class="d-sm-flex justify-content-between py-1">
-                    <p>2024 © Rafa Dev. All Rights Reserved. </p>
-                    <p>
-                    </p>
-                </div>
-            </div>
-        </footer>
         <!-- Footer Block Start -->
+        <!-- Incluir el navbar -->
+        <!--#include virtual="footer.shtml" -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
             integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
             crossorigin="anonymous"></script>

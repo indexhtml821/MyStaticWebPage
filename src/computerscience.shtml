@@ -13,12 +13,12 @@
 
 
     <div class="background">
-           <!-- Incluir el navbar -->
+        <!-- Incluir el navbar -->
         <!--#include virtual="nav.shtml" -->
 
 
 
-        <div class="careercontent " >
+        <div class="careercontent ">
             <div class="whycompscience">
                 <img src="media/ComputerScience.jfif" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -31,16 +31,17 @@
                 <img src="media/malla.PNG" class="card-img-top" alt="...">
                 <div class="card-body">
                     <a href="favoritecourses.shtml" class="btn btn-primary">Favorite Courses </a>
-                    <p class="card-text">An important theorical foundation that then is completed with more practical courses</p>
-                   
+                    <p class="card-text">An important theorical foundation that then is completed with more practical
+                        courses</p>
+
                 </div>
             </div>
             <div class="people">
                 <img src="media/colleagues.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <a href="people.shtml" class="btn btn-primary">Colleagues and  Professors</a>
+                    <a href="people.shtml" class="btn btn-primary">Colleagues and Professors</a>
                     <p class="card-text">The UCR experience is more than just books and code</p>
-                    
+
                 </div>
             </div>
             <div class="random">
@@ -48,14 +49,14 @@
                 <div class="card-body">
                     <a href="downloads.shtml" class="btn btn-primary">Downloadable </a>
                     <p class="card-text">Some items, maybe are useful</p>
-                    
+
                 </div>
             </div>
         </div>
-  
-  
 
-        
+
+
+
     </div>
 
 
@@ -71,59 +72,11 @@
         integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
         crossorigin="anonymous"></script>
     <!-- <script src="assets/js/popper.min.js"></script> -->
-  
+
+
     <!-- Footer Block Start -->
-    <footer id="footer" class="standardfooter">
-        <div class="container-fluid  bg-primary text">
-            <div class="row">
-                <div class="col-6 col-lg-4">
-                    <h3 class="fw-bold">Rafa Gutiérrez</h3>
-                    <p class="mb-2">8475-6566</p>
-                    <p>isaacopine@gmail.com</p>
-                </div>
-                <div class="col">
-                    <h4>Menu</h4>
-
-
-                    <ul class="list-unstyled pt-2">
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="objectives.shtml">Mis Objetivos</a>
-                        </li>
-                        <li class="nav-item">
-
-                            <a class="nav-link text-white" href="computerscience.shtml">Computación</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="hobbies.shtml">Pasatiempos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="about.shtml">Acerca de este sitio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="contact.shtml">Contáctame</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-6 col-lg-3 text-lg-end">
-                    <h4>Social Media Links</h4>
-                    <div class="social-media pt-2">
-                        <a href="#" class="text-light fs-2 me-3"><i class="bi bi-facebook"></i></a>
-                        <a href="#" class="text-light fs-2 me-3"><i class="bi bi-pinterest"></i></a>
-                        <a href="#" class="text-light fs-2 me-3"><i class="bi bi-instagram"></i></a>
-                        <a href="#" class="text-light fs-2"><i class="bi bi-linkedin"></i></a>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <div class="d-sm-flex justify-content-between py-1">
-                <p>2024 © Rafa Dev. All Rights Reserved. </p>
-                <p>
-                </p>
-            </div>
-        </div>
-    </footer>
-    <!-- Footer Block Start -->
+    <!-- Incluir el navbar -->
+    <!--#include virtual="footer.shtml" -->
 </body>
 
 </html>

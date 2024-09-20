@@ -13,7 +13,7 @@
 
 
     <div class="background">
-       <!-- Incluir el navbar -->
+        <!-- Incluir el navbar -->
         <!--#include virtual="nav.shtml" -->
 
 
@@ -108,10 +108,10 @@
     </div>
 
 
- 
+
     <!-- Footer Block Start -->
-   <!-- Incluir el navbar -->
-        <!--#include virtual="footer.shtml" -->
+    <!-- Incluir el navbar -->
+    <!--#include virtual="footer.shtml" -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
         integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
         crossorigin="anonymous"></script>

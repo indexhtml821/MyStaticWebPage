@@ -13,13 +13,14 @@
 
 
     <div class="background">
-       <!-- Incluir el navbar -->
+        <!-- Incluir el navbar -->
         <!--#include virtual="nav.shtml" -->
-        <div class="downloadable" >
+        <div class="downloadable">
             <div class="random">
                 <img src="media/random.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <a href="https://social.mtdv.me/blog/posts/Zk9Ul82J5D" class="btn btn-primary">Why Computer Science?</a>
+                    <a href="https://social.mtdv.me/blog/posts/Zk9Ul82J5D" class="btn btn-primary">Why Computer
+                        Science?</a>
                     <p class="card-text">The main reason , problem solving, but learn more about the career.</p>
 
                 </div>
@@ -27,73 +28,27 @@
             <div class="thiswebproject">
                 <img src="media/thiswebsite.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <a href="https://github.com/indexhtml821/MyStaticWebPage" class="btn btn-primary">This simple page </a>
+                    <a href="https://github.com/indexhtml821/MyStaticWebPage" class="btn btn-primary">This simple page
+                    </a>
                     <p class="card-text">Check the source code pressing the button.</p>
-                   
+
                 </div>
             </div>
             <div class="mvcdotnetexample">
                 <img src="media/mvc.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <a href="https://github.com/indexhtml821/MvcMovie" class="btn btn-primary">A MVC Dot Net example.</a>
-                    <p class="card-text">A summer free time rush made me finish the MVC documentation example.Check it out.</p>
-                    
+                    <a href="https://github.com/indexhtml821/MvcMovie" class="btn btn-primary">A MVC Dot Net
+                        example.</a>
+                    <p class="card-text">A summer free time rush made me finish the MVC documentation example.Check it
+                        out.</p>
+
                 </div>
             </div>
         </div>
-  
 
-        <footer id="footer" class="standardfooter">
-            <div class="container-fluid  bg-primary text">
-                <div class="row">
-                    <div class="col-6 col-lg-4">
-                        <h3 class="fw-bold">Rafa Gutiérrez</h3>
-                        <p class="mb-2">8475-6566</p>
-                        <p>isaacopine@gmail.com</p>
-                    </div>
-                    <div class="col">
-                        <h4>Menu</h4>
-
-
-                        <ul class="list-unstyled pt-2">
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="objectives.shtml">Mis Objetivos</a>
-                            </li>
-                            <li class="nav-item">
-
-                                <a class="nav-link text-white" href="computerscience.shtml">Computación</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="hobbies.shtml">Pasatiempos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="about.shtml">Acerca de este sitio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="contact.shtml">Contáctame</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-6 col-lg-3 text-lg-end">
-                        <h4>Social Media Links</h4>
-                        <div class="social-media pt-2">
-                            <a href="#" class="text-light fs-2 me-3"><i class="bi bi-facebook"></i></a>
-                            <a href="#" class="text-light fs-2 me-3"><i class="bi bi-pinterest"></i></a>
-                            <a href="#" class="text-light fs-2 me-3"><i class="bi bi-instagram"></i></a>
-                            <a href="#" class="text-light fs-2"><i class="bi bi-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <div class="d-sm-flex justify-content-between py-1">
-                    <p>2024 © Rafa Dev. All Rights Reserved. </p>
-                    <p>
-                    </p>
-                </div>
-            </div>
-        </footer>
         <!-- Footer Block Start -->
+        <!-- Incluir el navbar -->
+        <!--#include virtual="footer.shtml" -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
             integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
             crossorigin="anonymous"></script>
