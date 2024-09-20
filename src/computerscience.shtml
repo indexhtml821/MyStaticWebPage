@@ -69,8 +69,16 @@
             <div class="people">
                 <img src="media/colleagues.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <a href="people.html" class="btn btn-primary">Colleagues and  Professors</a>
-                    <p class="card-text">El paso por la UCR me ha dado fundamentos necesarios para la industria del software</p>
+                    <a href="people.shtml" class="btn btn-primary">Colleagues and  Professors</a>
+                    <p class="card-text">The UCR experience is more than just books and code</p>
+                    
+                </div>
+            </div>
+            <div class="random">
+                <img src="media/random.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="downloads.shtml" class="btn btn-primary">Downloadable </a>
+                    <p class="card-text">Some items, maybe are useful</p>
                     
                 </div>
             </div>
