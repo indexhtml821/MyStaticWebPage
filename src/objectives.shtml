@@ -16,7 +16,7 @@
        <!-- Incluir el navbar -->
         <!--#include virtual="nav.shtml" -->
         
-        <div class="bg-primary text container">
+        <div class="titleobjectives">
             <H1>Objectives</H1>
         </div>
         <div class="album py-5 "></div>
