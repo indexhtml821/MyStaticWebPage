@@ -52,14 +52,19 @@
 
         <!-- Presentación Personal-->
         <section id="banner" class="home">
-            <div class="container-fluid ">
+            <div class="container ">
                 <div class="row">
                     <div class="col-sm-8 text ">
 
                         <h1 class="display-2">Rafa Gutiérrez</h1>
 
-                        <p>Hello this is body text, Documentation and examples for common text utilities to control
-                            alignment, wrapping, weight, and more.</p>
+                        <p>I'm a Costa Rican-based Software Developer, who likes to learn new programming languages and
+                            investigate something new about technology every day.</p>
+                        <p>Currently, I'm a Computer Science student at Universidad of Costa Rica with differents
+                            knowledges on the BackEnd and FrontEnd.</p>
+                        <p>A person who enjoys the music, video games, movies and the great world of technology, also a
+                            person who enjoy travel and know new places and new people.</p>
+
                     </div>
                     <div class="col-sm-4"><img class="img-responsive" src="media\road.png"
                             alt="Descripción de la imagen" />
@@ -73,12 +78,18 @@
 
         <!-- Skills-->
         <section id="banner" class="home">
-            <div class="container-fluid ">
+            <div class="container">
                 <div class="row">
                     <div class="col-sm-8 text">
                         <h1 class="display-2">Skills</h1>
-                        <p>Hello this is body text, Documentation and examples for common text utilities to control
-                            alignment, wrapping, weight, and more.</p>
+                        <p>This are some of my Professional Skills that I continous learning something new about these
+                            technologies every da</p>
+                        <p>My mainly Soft Skills are Time Management, Problem Solving and Communication and I'm always
+                            looking to improve myself as person.</p>
+                        <p>I'm always open to learn new technologies and frameworks that are required in the area and
+                            become a better developer.</p>
+                        <p>If I can help you with some of this skills let me know.</p>
+                        <p>It would be a pleasure to work with you!!</p>
                     </div>
                     <div class="col-sm-4"><img class="img-responsive" src="media/skils.png"
                             alt="Descripción de la imagen" />
