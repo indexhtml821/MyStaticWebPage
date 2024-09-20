@@ -16,10 +16,10 @@
     <!-- Incluir el navbar -->
     <!--#include virtual="nav.shtml" -->
 
-    <div class="container py-5">
-      <div class="row g-5">
+    <div class="contact">
+      <div class="contactroworder">
         <!-- Contact Information Block -->
-        <div class="col-xl-6">
+        <div class="contactinfo">
           <div class="row row-cols-md-2 g-4">
             <div class="aos-item" data-aos="fade-up" data-aos-delay="200">
               <div class="aos-item__inner">
@@ -63,7 +63,7 @@
         </div>
 
         <!-- Contact Form Block -->
-        <div class="col-xl-6 text">
+        <div class="contactform">
           <h2 class="">Leave a message</h2>
           <div class="row g-4">
             <div class="col-6 mb-3">
